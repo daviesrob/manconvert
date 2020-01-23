@@ -65,7 +65,7 @@ sub conv_fontescape {
 my %special = (
   em => '&mdash;', en => '&ndash;', hy => '-',
   rg => '&reg;', co => '&copy;',
-  pl => '+', mi => '&minus;', eq => '=',
+  pl => '+', mi => '&minus;', eq => '=', rs => '&bsol;',
   # These '(x' escapes are locally invented and absent from groff
   '(<' => '&lt;', '(>' => '&gt;', '(&' => '&amp;', '(.' => '&hellip;',
   oq => '&lsquo;', cq => '&rsquo;', lq => '&ldquo;', rq => '&rdquo;',
